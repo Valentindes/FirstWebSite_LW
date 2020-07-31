@@ -1,0 +1,11 @@
+body{
+	background-image:url("images/formulario.jpg");
+	background-size: cover;
+	float:right;
+	margin-right:80px;
+}
+
+body h1{
+	font-family: 'Roboto Slab', serif;
+	font-size:30px;
+}

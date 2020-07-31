@@ -1,0 +1,76 @@
+#banner{
+	margin:20px;
+	margin-bottom: 0px;
+	background-image: url("images/banner.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 150px 40px;
+	text-align: center;
+}
+
+#banner img{
+	width: 200px;
+	height:200px;
+	border-radius: 50%;
+	filter:opacity(0.8);
+}
+
+#banner h1{
+	color:white;
+}
+
+.navbar {
+    background-color: rgb(240,240,240);
+    margin: 20px;
+    margin-top: 0px;
+    justify-content: space-between;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+
+.nav-link{
+	text-align:right;
+}
+
+.form-group{
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  color:rgba(0,0,0,.5);
+}
+
+.form-check{
+  font-size:1rem;
+  font-family: 'Bree Serif', serif;
+  color:rgba(0,0,0,.5);
+  margin-bottom:10px;
+}
+
+.form.btn-btn-primary{
+  background-color: #03bb85;
+}
+
+.footer {
+  background: rgb(240,240,240);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0px 50px;
+  color: #03bb85;
+  margin-top:20px;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: #03bb85;
+  opacity: 1;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  color:lightgreen;
+  opacity: 1;
+}

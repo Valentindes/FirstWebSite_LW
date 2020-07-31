@@ -1,0 +1,44 @@
+
+.card{
+	background-image:url("images/cafe.jpg");
+	height:300px;
+	width:500px;
+	background-size: cover;
+	background-position: center;
+	position:relative;
+	border: 2px solid lightgrey;
+	border-radius: 5px solid lightgrey;
+	margin: 20px;
+	}
+
+#food{
+	background-image: url("images/food.jpg");
+	background-size: cover;
+}
+
+#product{
+	background-image: url("images/productos.jpg");
+	background-position: cover;
+}
+
+.category{
+	position:absolute;
+	padding: 5px 10px;
+	color:black;
+	background-color: #03bb85;
+	border-radius: 5px;
+	top:10px;
+	left:10px;
+	font-family: 'Red Rose', cursive;
+}
+
+
+.information{
+	position:absolute;
+	}
+
+.information h2{
+	font-family: 'Red Rose', cursive;
+	font-family: 'Sora', sans-serif;
+	color: black;
+}
